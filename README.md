@@ -1,8 +1,8 @@
-##🏦 Simulador Bancário em Java
+# 🏦 Simulador Bancário em Java
 
 Um sistema simples de gerenciamento bancário via linha de comando (CLI), desenvolvido para demonstrar conceitos fundamentais de Programação Orientada a Objetos (POO) em Java.
 
-#📋 Sobre o Projeto
+## 📋 Sobre o Projeto
 
 Este projeto simula as operações básicas de um banco, permitindo a criação de contas, movimentação financeira e consulta de dados. O foco principal é a estruturação do código seguindo princípios de encapsulamento e separação de responsabilidades.
 Funcionalidades
@@ -13,7 +13,7 @@ Funcionalidades
     Transferir: Move valores entre contas (valida a conta de origem, destino e saldo).
     Listar Contas: Exibe todas as contas cadastradas no banco (memória).
 
-##🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
   Linguagem: Java (JDK 8 ou superior)
   Conceitos:
@@ -22,16 +22,15 @@ Funcionalidades
     Coleções (ArrayList)
     Tratamento de Exceções (try-catch)
 
-##📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 O código foi refatorado para separar responsabilidades em arquivos distintos:
 
-    Conta.java	
-        Modelo: Define o objeto Conta, seus atributos (saldo, número, titular) e regras de negócio (sacar, depositar).
-    Banco.java	
-        Gerenciador: Atua como o banco de dados em memória, armazenando e buscando as contas na lista.
-    Main.java	
-        Interface: Gerencia a interação com o usuário (Menu), entrada de dados e execução do programa.
+| Arquivo     | Responsabilidade                                                                                               |
+| ------------|:--------------------------------------------------------------------------------------------------------------:|
+| Conta.java  | Modelo: Define o objeto Conta, seus atributos (saldo, número, titular) e regras de negócio (sacar, depositar). |
+| Banco.java  | Gerenciador: Atua como o banco de dados em memória, armazenando e buscando as contas na lista.                 |
+| Main.java   | Interface: Gerencia a interação com o usuário (Menu), entrada de dados e execução do programa.                 |
 
 
 ##🧠 Aprendizados
