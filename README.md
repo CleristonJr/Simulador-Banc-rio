@@ -1,4 +1,4 @@
-#🏦 Simulador Bancário em Java
+##🏦 Simulador Bancário em Java
 
 Um sistema simples de gerenciamento bancário via linha de comando (CLI), desenvolvido para demonstrar conceitos fundamentais de Programação Orientada a Objetos (POO) em Java.
 
@@ -13,7 +13,7 @@ Funcionalidades
     Transferir: Move valores entre contas (valida a conta de origem, destino e saldo).
     Listar Contas: Exibe todas as contas cadastradas no banco (memória).
 
-#🚀 Tecnologias Utilizadas
+##🚀 Tecnologias Utilizadas
 
   Linguagem: Java (JDK 8 ou superior)
   Conceitos:
@@ -22,7 +22,7 @@ Funcionalidades
     Coleções (ArrayList)
     Tratamento de Exceções (try-catch)
 
-#📂 Estrutura do Projeto
+##📂 Estrutura do Projeto
 
 O código foi refatorado para separar responsabilidades em arquivos distintos:
 
@@ -34,7 +34,7 @@ O código foi refatorado para separar responsabilidades em arquivos distintos:
         Interface: Gerencia a interação com o usuário (Menu), entrada de dados e execução do programa.
 
 
-🧠 Aprendizados
+##🧠 Aprendizados
 
 Este projeto serve como exemplo prático de:
 
