@@ -26,10 +26,16 @@ Funcionalidades
 
 O código foi refatorado para separar responsabilidades em arquivos distintos:
 
-Arquivo	Responsabilidade
+Arquivo	    Responsabilidade
+
 Conta.java	Modelo: Define o objeto Conta, seus atributos (saldo, número, titular) e regras de negócio (sacar, depositar).
 Banco.java	Gerenciador: Atua como o banco de dados em memória, armazenando e buscando as contas na lista.
 Main.java	Interface: Gerencia a interação com o usuário (Menu), entrada de dados e execução do programa.
+
+Arquivo,Responsabilidade
+Conta.java,"Modelo: Define o objeto Conta, seus atributos (saldo, número, titular) e regras de negócio (sacar, depositar)."
+Banco.java,"Gerenciador: Atua como o banco de dados em memória, armazenando e buscando as contas na lista."
+Main.java,"Interface: Gerencia a interação com o usuário (Menu), entrada de dados e execução do programa."
 
 
 🧠 Aprendizados
